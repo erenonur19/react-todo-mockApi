@@ -35,7 +35,12 @@ const Login = () => {
         if(username.length<5){
           e.preventDefault()
           alert('Kullanıcı adı 5 karakterden büyük olmalı')
-        }else{
+          
+        }else if (username.includes(' ')){
+          e.preventDefault()
+          alert('Kullanıcı adında boşluk olamaz')
+        }
+        else{
           console.log(username)
           localStorage.setItem('username', username)
         }
