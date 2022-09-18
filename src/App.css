@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Secular+One&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Secular One', sans-serif;
+}
+button{
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: #fff;
+}
+.login input{
+ padding: 1.2rem;
+ width: 20vw;
+}
+.login input:focus{
+    border: none !important;
+}
+
+.baslik{
+  position: relative;
+  bottom: 50px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.2em;
+
+}
+
+
+/* TODOS */
+
+.todo-page{
+  display: flex;
+  width: 100vw;
+  height: 85vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 15vh;
+
+}
+
+.add-todo input{
+  width: 20vw;
+  height: 4.9vh;
+  border-radius: 0.8rem;
+
+  margin-bottom: 1vh;
+  padding: 5px;
+}
+.add-todo button{
+  height: 6.5vh;
+  margin-left: 0.5vw;
+  border-radius: 0.8rem;
+  width: 3.8vw;
+  font-size: 1.2em;
+}
+
+
+.mt-1{
+  margin-top: 2vh;
+}
+.todos{
+  border: 1px solid black;
+
+  width: 24vw;
+  margin-bottom: 2vh;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.todos-l{
+
+  padding: 5px;
+  cursor: pointer;
+}
+.todos img{
+  padding:5px;
+  cursor: pointer;
+}
+
+
+/* TODOS */
+
+/* MODAL */
+
+.modal{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25%;
+  left: 42%;
+  height: 30vh;
+  width: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+
+}
+.modal img{
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 10%;
+}
+
+
+/* MODAL */
+
+
+.light{
+  background-color: #fff;
+  color:black
+}
+.dark{
+  background-color: black;
+  color: rgb(167, 32, 32);
+}
+
+.dark *{
+  color: rgb(167, 32, 32);
+}
+button{
+  padding:10px;
+  font-size: 1.0em;
+  margin-left: 0.8vw;
+}
